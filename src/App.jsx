@@ -13,16 +13,13 @@ import { useEffect, useState } from "react";
 const AppContainer = styled.div`
   display: flex;
   width: 98vw;
-  height: 98vh;
   justify-content: center;
   align-items: center;
   background-color: #d3d0d0;
 `;
 
 const AppContent = styled.div`
-  width: 50%;
-  height: 90%;
-  max-width: 1200px;
+  width: 60vw;
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
